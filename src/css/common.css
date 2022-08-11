@@ -16,3 +16,44 @@ img {
   display: block;
   max-width: 100%;
 }
+
+input {
+  width: 308px;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  text-align: center;
+
+  border: 1px solid #42a5f5;
+}
+
+button {
+  width: 308px;
+  height: 40px;
+  margin-bottom: 50px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+  margin-top: 10px;
+  width: 280px;
+}
+
+.field + .field {
+  margin-left: 15px;
+}
+
+.value {
+  margin-left: auto;
+  font-size: 60px;
+  font-weight: 500;
+  color: #42a5f5;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 200;
+  color: #42a5f5;
+}
