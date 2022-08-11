@@ -7,9 +7,9 @@ formSubmit.addEventListener('submit', submitPromise);
 function submitPromise(e) {
   e.preventDefault();
 
-  step = Number(e.currentTarget.step.value);
   amount = Number(e.currentTarget.amount.value);
   delay = Number(e.currentTarget.delay.value);
+  step = Number(e.currentTarget.step.value);
 
   for (let position = 1; position <= amount; position += 1) {
     createPromise(position, delay)
