@@ -69,7 +69,7 @@ class Timer {
       const deltaTime = selectedTime - currentTime;
       const valuesTimer = convertMs(deltaTime);
       this.convertValuesTimer(valuesTimer);
-      if (deltaTime <= 0) {
+      if (deltaTime < 1000) {
         this.stopTimer();
       }
     }, 1000);
